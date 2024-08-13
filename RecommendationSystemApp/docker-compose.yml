@@ -1,0 +1,21 @@
+services:
+  generator:
+    container_name: generator_service
+    build:
+      context: ./generator
+    ports:
+      - "5000:5000"
+
+  invoker:
+    container_name: invoker_service
+    build:
+      context: ./invoker
+    ports:
+      - "5001:5001"
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:latest
+    ports:
+      - "6379:6379"
