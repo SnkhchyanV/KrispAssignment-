@@ -20,6 +20,8 @@ This recommendation system consists of two services: `Generator` and `Invoker`.
 2. Navigate to the repository directory.
 3. Run `docker-compose up --build` to start the services.
 
+ATTENTION: If you have not setuped Docker to your System there might be errors. Please, set up Docker before running application.
+
 ### Endpoints
 
 - Generator Service
