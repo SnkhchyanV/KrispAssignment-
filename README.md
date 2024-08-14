@@ -7,3 +7,4 @@ RecommendationSystemApp: Contains the code for part one. It's a recommendation s
 Note: You do not need any other files to check this solution; just pull this directory and use it.
 
 Part2: Contains a Colab file with all the code samples with filled gaps. You can also find the same Colab file here:
+https://colab.research.google.com/drive/1WOYsMxjMhwQpSFsDUsLlfQ641LUGJbik?usp=sharing
